@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPABILITIES | AMT Engineering Works</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --industry-blue: #004a99;
+            --electric-blue: #00d4ff;
+            --deep-black: #0a0a0a;
+            --steel-gray: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Exo 2', sans-serif;
+            margin: 0;
+            background-color: var(--steel-gray);
+            color: var(--deep-black);
+        }
+
+        nav {
+            padding: 15px 30px;
+            background: #fff;
+            border-bottom: 3px solid var(--industry-blue);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo { font-weight: 900; text-transform: uppercase; color: var(--industry-blue); text-decoration: none; }
+
+        .header-section {
+            background-color: var(--deep-black);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 8px solid var(--industry-blue);
+        }
+
+        .header-section h1 { font-size: 3rem; text-transform: uppercase; margin: 0; color: var(--electric-blue); }
+
+        .grid {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #fff;
+            border: 3px solid #000;
+            padding: 40px;
+            box-shadow: 8px 8px 0px var(--industry-blue);
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 15px 15px 0px var(--electric-blue);
+        }
+
+        .card h3 {
+            text-transform: uppercase;
+            border-bottom: 4px solid var(--industry-blue);
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .card p { font-size: 0.95rem; line-height: 1.6; color: #444; }
+
+        .back-nav {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .btn {
+            background: var(--deep-black);
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">AMT ENGINEERING WORKS</a>
+        <div class="nav-links">
+            <a href="002.html" style="background: var(--industry-blue); color: #fff; padding: 8px 15px; text-decoration: none;">Pre-Order</a>
+        </div>
+    </nav>
+
+    <div class="header-section">
+        <h1>OUR CAPABILITIES</h1>
+        <p>INDUSTRIAL SOLUTIONS • BULACAN AREA</p>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>General Fabrication</h3>
+            <p>From structural skeletons to industrial gates. We fabricate based on your blueprints with zero-tolerance for error.</p>
+        </div>
+
+        <div class="card">
+            <h3>Custom Made Parts</h3>
+            <p>Can't find a replacement bolt or bracket? We manufacture specialized hardware and mechanical parts from scratch.</p>
+        </div>
+
+        <div class="card">
+            <h3>Machine Repairs</h3>
+            <p>On-site or in-shop restoration of factory machinery, hydraulic parts, and heavy construction tools.</p>
+        </div>
+
+        <div class="card">
+            <h3>Torno (Lathe Work)</h3>
+            <p>Precision turning, threading, and resurfacing. We handle shafts, rollers, and custom hubs with extreme accuracy.</p>
+        </div>
+
+        
+
+        <div class="card">
+            <h3>Engine Repairs</h3>
+            <p>Specialized engine works including head resurfacing, block boring, and heavy-duty component rebuilding.</p>
+        </div>
+
+        <div class="card">
+            <h3>Industrial Welds</h3>
+            <p>Expert TIG, MIG, and high-tensile welding for cast iron, stainless steel, and structural beams.</p>
+        </div>
+
+        <div class="card">
+            <h3>Bulk Orders</h3>
+            <p>Mass production capabilities for plates, brackets, and standardized parts for large-scale developments.</p>
+        </div>
+
+        <div class="card">
+            <h3>Design Translation</h3>
+            <p>Send us your PDFs or manual sketches. We turn theoretical engineering designs into physical metal prototypes.</p>
+        </div>
+    </div>
+
+    <div class="back-nav">
+        <a href="index.html" class="btn">← Back to Home</a>
+    </div>
+
+</body>
+</html>

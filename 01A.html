@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR STORY | AMT Engineering Works</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --industry-blue: #004a99;
+            --electric-blue: #00d4ff;
+            --deep-black: #0a0a0a;
+            --steel-gray: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Exo 2', sans-serif;
+            margin: 0;
+            background-color: var(--steel-gray);
+            color: var(--deep-black);
+            line-height: 1.6;
+        }
+
+        nav {
+            padding: 15px 30px;
+            background: #fff;
+            border-bottom: 3px solid var(--industry-blue);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo { font-weight: 900; text-transform: uppercase; color: var(--industry-blue); text-decoration: none; }
+
+        .hero-about {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1000'); /* Placeholder industrial background */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+            border-bottom: 8px solid var(--electric-blue);
+        }
+
+        .hero-about h1 { font-size: 3.5rem; text-transform: uppercase; margin: 0; }
+
+        .content-container {
+            max-width: 800px;
+            margin: -50px auto 60px;
+            background: #fff;
+            padding: 50px;
+            border: 3px solid #000;
+            box-shadow: 15px 15px 0px var(--industry-blue);
+        }
+
+        .story-heading {
+            color: var(--industry-blue);
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            border-bottom: 4px solid var(--electric-blue);
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .family-highlight {
+            background-color: var(--steel-gray);
+            padding: 25px;
+            border-left: 5px solid var(--industry-blue);
+            margin: 30px 0;
+            font-style: italic;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .value-card {
+            border: 2px solid #ddd;
+            padding: 20px;
+        }
+
+        .value-card h4 {
+            margin: 0 0 10px 0;
+            color: var(--industry-blue);
+            text-transform: uppercase;
+        }
+
+        .back-home {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .btn-back {
+            text-decoration: none;
+            color: var(--deep-black);
+            font-weight: 900;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--industry-blue);
+            transition: 0.3s;
+        }
+
+        .btn-back:hover { color: var(--industry-blue); }
+
+        @media (max-width: 600px) {
+            .values-grid { grid-template-columns: 1fr; }
+            .hero-about h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">AMT ENGINEERING WORKS</a>
+    </nav>
+
+    <section class="hero-about">
+        <h1>THE LAPUZ LEGACY</h1>
+        <p>FROM HUMBLE BEGINNINGS TO INDUSTRIAL EXCELLENCE</p>
+    </section>
+
+    <main class="content-container">
+        <h2 class="story-heading">Our Story</h2>
+        <p>
+            AMT Engineering Works isn't just a shop; it’s a testament to hard work and perseverance. 
+            Built from the ground up by the <strong>Lapuz Family</strong>, our company started as a small 
+            dream fueled by grit and a deep understanding of metalwork.
+        </p>
+
+        <div class="family-highlight">
+			"Put in the work when others won't, so you can find peace when others can't."
+        </div>
+
+        <p>
+            Being family-owned means we don't answer to corporate boards; we answer to you. 
+            We treat every blueprint that comes through our doors with the same care we gave our very first project. 
+            Our growth is rooted in the trust of our local partners and the specialized skills passed down through the family.
+        </p>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <h4>Fair Pricing</h4>
+                <p>Not too high, not too low. We believe in "Just Right" pricing—honest rates for high-precision engineering.</p>
+            </div>
+            <div class="value-card">
+                <h4>Family Values</h4>
+                <p>Integrity is at our core. If a weld isn't perfect, it doesn't leave our shop. That's the Lapuz promise.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="back-home">
+        <a href="index.html" class="btn-back">← Back to Main Showcase</a>
+    </div>
+
+</body>
+</html>
